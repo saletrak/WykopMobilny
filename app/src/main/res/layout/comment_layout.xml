@@ -2,7 +2,11 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     style="@style/EntryCommentsCardView"
+=======
+    style="@style/CommentCardView"
+>>>>>>> master
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:parentTag="android.support.v7.widget.CardView">
@@ -40,16 +44,31 @@
             android:clickable="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
             app:layout_constraintTop_toBottomOf="@+id/lineTop"
             tools:text="Text"/>
+=======
+            app:layout_constraintTop_toBottomOf="@+id/authorHeaderView"
+            tools:text="Text text text"/>
+>>>>>>> master
 
         <io.github.feelfreelinux.wykopmobilny.ui.widgets.WykopImageView
             android:id="@+id/entryImageView"
             style="@style/WykopImageView"
+<<<<<<< HEAD
             app:layout_constraintHeight_default="wrap"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/entryContentTextView"/>
+=======
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_default="wrap"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/entryContentTextView"/>
+>>>>>>> master
 
         <TextView
             android:id="@+id/expandImageViewTextView"
@@ -76,6 +95,7 @@
             android:paddingRight="2dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
             app:layout_constraintTop_toBottomOf="@id/lineBottom">
 
             <TextView
@@ -123,5 +143,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
+=======
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/authorHeaderView"
+            app:layout_constraintTop_toTopOf="parent"/>
+>>>>>>> master
     </android.support.constraint.ConstraintLayout>
 </merge>

@@ -3,7 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="wrap_content"
+=======
+    android:fitsSystemWindows="true"
+    app:contentInsetStartWithNavigation="0dp"
+>>>>>>> master
     android:minHeight="?attr/actionBarSize"
     android:fitsSystemWindows="true"
     app:contentInsetStartWithNavigation="0dp"

@@ -65,14 +65,12 @@ class EntryActivity : BaseActivity(), EntryDetailView, InputToolbarListener, Swi
             title = null
             setDisplayHomeAsUpEnabled(true)
         }
-        supportActionBar?.title = null
         WykopApp.uiInjector.inject(this)
 
         // Prepare RecyclerView
         recyclerView.apply {
             prepare()
-            // Set margin, adapter
-            addItemDecoration(EntryCommentItemDecoration(resources.getDimensionPixelOffset(R.dimen.comment_section_left_margin)))
+            // Set adapter
             this.adapter = this@EntryActivity.adapter
         }
 

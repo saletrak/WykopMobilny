@@ -2,6 +2,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
+<<<<<<< HEAD
     <corners android:radius="0dp"/>
     <solid android:color="@color/cardViewSelected"/>
+=======
+    <solid android:color="?attr/cardViewSelected"/>
+>>>>>>> master
 </shape>

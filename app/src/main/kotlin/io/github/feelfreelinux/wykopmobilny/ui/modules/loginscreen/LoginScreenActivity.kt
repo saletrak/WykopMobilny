@@ -37,7 +37,13 @@ class LoginScreenActivity : BaseActivity(), LoginScreenView {
         setContentView(R.layout.activity_webview)
         toolbar.title = getString(R.string.login)
         setSupportActionBar(toolbar)
+<<<<<<< HEAD
     }
+=======
+        supportActionBar?.apply {
+            setDisplayHomeAsUpEnabled(true)
+        }
+>>>>>>> master
 
     override fun onResume() {
         super.onResume()
@@ -66,6 +72,11 @@ class LoginScreenActivity : BaseActivity(), LoginScreenView {
     override fun onPause() {
         super.onPause()
         presenter.unsubscribe()
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
     }
 }
 

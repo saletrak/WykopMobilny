@@ -40,6 +40,7 @@
             android:layout_height="@dimen/markdown_item_size"
             android:layout_margin="@dimen/input_toolbar_item_margin"
             android:animateLayoutChanges="true"
+<<<<<<< HEAD
             android:src="@drawable/ic_close"
             app:layout_constraintStart_toEndOf="@id/markdownToolbar"
             app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +53,11 @@
             android:layout_height="1dp"
             android:background="?attr/separatorColor"
             app:layout_constraintStart_toStartOf="parent"
+=======
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_downward"
+            app:layout_constraintBottom_toBottomOf="parent"
+>>>>>>> master
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 

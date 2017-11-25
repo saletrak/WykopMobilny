@@ -3,7 +3,11 @@
 <item>
     <shape android:shape="rectangle">
 
+<<<<<<< HEAD
         <size android:height="1dp" android:width="40dp"/>
+=======
+    <size android:height="2dp" android:width="40dp"/>
+>>>>>>> master
 
         <solid android:color="#00ffffff"/>
 
